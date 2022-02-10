@@ -1,0 +1,72 @@
+{
+    "icons": [
+        {
+            "id": 0,
+            "name": "Play",
+            "file": "play",
+            "keywords": [
+                "triangle",
+                "song",
+                "music",
+                "run",
+                "launch"
+            ]
+        },
+        {
+            "id": 1,
+            "name": "Previous",
+            "file": "previous",
+            "keywords": [
+                "triangle",
+                "block",
+                "song",
+                "music",
+                "backward"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Next",
+            "file": "next",
+            "keywords": [
+                "triangle",
+                "block",
+                "song",
+                "music",
+                "forward"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Stop",
+            "file": "stop",
+            "keywords": [
+                "square",
+                "block",
+                "song",
+                "music",
+                "run",
+                "launch"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Heart",
+            "file": "heart",
+            "keywords": [
+                "love",
+                "like",
+                "favorite"
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Trash",
+            "file": "trash",
+            "keywords": [
+                "delete",
+                "remove"
+            ]
+        }
+    ]
+}
