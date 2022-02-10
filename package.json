@@ -6,7 +6,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "publish": "gh-pages -d src"
+    "publish": "gh-pages -d dist"
   },
   "dependencies": {
     "@fontsource/open-sans": "^4.5.4",
