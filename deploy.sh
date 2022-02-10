@@ -10,6 +10,6 @@ git init
 git add -A
 git commit -m 'deploy'
 
-git push -f git@github.com:yinkar/yinkar-icons main:gh-pages
+git push -f git@github.com:yinkar/yinkar-icons master:gh-pages
 
 cd -
