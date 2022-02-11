@@ -33,21 +33,21 @@ export default {
 
 <style lang="stylus">
 .icon
-    margin 5px
+    margin 10px
     padding 5px
     box-sizing border-box
     height 28px
     width 28px
     border-radius 4px
-    background-color #fff
-    box-shadow 2px 2px 6px #0003
     display flex
     place-content center center
     cursor pointer
     transition 100ms ease-in-out
     transition-property transform, box-shadow
+    background-color #fff6
+    box-shadow 1px 1px 2px #0002
 
     &:hover
-        transform translate(-1px, -1px)
-        box-shadow 3px 3px 6px #0003
+        box-shadow 2px 2px 6px #0003
+        background-color #fff
 </style>

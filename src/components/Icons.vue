@@ -59,5 +59,6 @@ div#icons
     padding 20px 10px
     justify-content center
     margin 40px auto
-    background-color #eee
+    background-color #999
+    flex-wrap wrap
 </style>

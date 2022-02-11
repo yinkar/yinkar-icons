@@ -67,6 +67,355 @@
                 "delete",
                 "remove"
             ]
+        },
+        {
+            "id": 6,
+            "name": "Star",
+            "file": "star",
+            "keywords": [
+                "pentagram",
+                "favorite",
+                "five"
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Add User",
+            "file": "add-user",
+            "keywords": [
+                "member",
+                "human",
+                "person",
+                "addition",
+                "plus"
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Remove User",
+            "file": "remove-user",
+            "keywords": [
+                "member",
+                "human",
+                "person",
+                "remove",
+                "delete",
+                "minus"
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Users",
+            "file": "users",
+            "keywords": [
+                "members",
+                "humans",
+                "people"
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Bars",
+            "file": "bars",
+            "keywords": [
+                "menu",
+                "hamburger"
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Gear",
+            "file": "gear",
+            "keywords": [
+                "settings",
+                "options",
+                "control",
+                "edit"
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Credit Card",
+            "file": "credit-card",
+            "keywords": [
+                "card",
+                "pay",
+                "purchase"
+            ]
+        },
+        {
+            "id": 13,
+            "name": "Hourglass",
+            "file": "hourglass",
+            "keywords": [
+                "sand",
+                "clock",
+                "hour",
+                "time",
+                "wait",
+                "loading"
+            ]
+        },
+        {
+            "id": 14,
+            "name": "Random",
+            "file": "random",
+            "keywords": [
+                "choose"
+            ]
+        },
+        {
+            "id": 15,
+            "name": "File",
+            "file": "file",
+            "keywords": [
+                "paper",
+                "text",
+                "document"
+            ]
+        },
+        {
+            "id": 16,
+            "name": "Plus",
+            "file": "plus",
+            "keywords": [
+                "add",
+                "sum",
+                "append",
+                "increase"
+            ]
+        },
+        {
+            "id": 17,
+            "name": "Times",
+            "file": "times",
+            "keywords": [
+                "multiplay",
+                "cross",
+                "exit",
+                "remove",
+                "error",
+                "prohibited",
+                "forbidden",
+                "banned"
+            ]
+        },
+        {
+            "id": 18,
+            "name": "Minus",
+            "file": "minus",
+            "keywords": [
+                "minus",
+                "remove",
+                "decrease",
+                "line",
+                "bar"
+            ]
+        },
+        {
+            "id": 19,
+            "name": "Copy",
+            "file": "copy",
+            "keywords": [
+                "files",
+                "documents",
+                "double"
+            ]
+        },
+        {
+            "id": 20,
+            "name": "Reload",
+            "file": "reload",
+            "keywords": [
+                "refresh",
+                "loop",
+                "circle"
+            ]
+        },
+        {
+            "id": 21,
+            "name": "Bell",
+            "file": "bell",
+            "keywords": [
+                "unmute",
+                "sound",
+                "alert"
+            ]
+        },
+        {
+            "id": 22,
+            "name": "Mute",
+            "file": "mute",
+            "keywords": [
+                "silence",
+                "bell"
+            ]
+        },
+        {
+            "id": 23,
+            "name": "Attachment",
+            "file": "attachment",
+            "keywords": [
+                "addition"
+            ]
+        },
+        {
+            "id": 24,
+            "name": "Download",
+            "file": "download",
+            "keywords": [
+                "get",
+                "arrow"
+            ]
+        },
+        {
+            "id": 25,
+            "name": "Palette",
+            "file": "palette",
+            "keywords": [
+                "paint",
+                "colors"
+            ]
+        },
+        {
+            "id": 26,
+            "name": "Code",
+            "file": "code",
+            "keywords": [
+                "html",
+                "brackets"
+            ]
+        },
+        {
+            "id": 27,
+            "name": "Information",
+            "file": "info",
+            "keywords": [
+                "about",
+                "letter",
+                "circle"
+            ]
+        },
+        {
+            "id": 28,
+            "name": "Music Note",
+            "file": "music-note",
+            "keywords": [
+                "melody",
+                "sound"
+            ]
+        },
+        {
+            "id": 27,
+            "name": "Sound",
+            "file": "sound",
+            "keywords": [
+                "mute",
+                "voice",
+                "speaker"
+            ]
+        },
+        {
+            "id": 28,
+            "name": "No Sound",
+            "file": "no-sound",
+            "keywords": [
+                "mute",
+                "voice",
+                "sound",
+                "speaker"
+            ]
+        },
+        {
+            "id": 29,
+            "name": "Empty Battery",
+            "file": "empty-battery",
+            "keywords": [
+                "charge",
+                "empty",
+                "battery"
+            ]
+        },
+        {
+            "id": 30,
+            "name": "Low Battery",
+            "file": "low-battery",
+            "keywords": [
+                "charge",
+                "low",
+                "battery"
+            ]
+        },
+        {
+            "id": 31,
+            "name": "Full Battery",
+            "file": "full-battery",
+            "keywords": [
+                "charge",
+                "full",
+                "battery"
+            ]
+        },
+        {
+            "id": 32,
+            "name": "Envelope",
+            "file": "envelope",
+            "keywords": [
+                "message",
+                "letter",
+                "mail",
+                "email",
+                "e-mail"
+            ]
+        },
+        {
+            "id": 33,
+            "name": "Message",
+            "file": "message",
+            "keywords": [
+                "comment",
+                "letter",
+                "speak",
+                "talk",
+                "chat"
+            ]
+        },
+        {
+            "id": 34,
+            "name": "Pencil",
+            "file": "pencil",
+            "keywords": [
+                "edit",
+                "write",
+                "stilo"
+            ]
+        },
+        {
+            "id": 35,
+            "name": "Edit",
+            "file": "edit",
+            "keywords": [
+                "square",
+                "write",
+                "stilo"
+            ]
+        },
+        {
+            "id": 36,
+            "name": "Share",
+            "file": "share",
+            "keywords": [
+                "publish"
+            ]
+        },
+        {
+            "id": 37,
+            "name": "Shopping Cart",
+            "file": "shopping-cart",
+            "keywords": [
+                "cart",
+                "trade"
+            ]
         }
     ]
 }

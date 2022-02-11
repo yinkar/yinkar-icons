@@ -1,5 +1,6 @@
 <script setup>
 import Icons from './components/Icons.vue';
+import './style.styl';
 </script>
 
 <template lang="pug">
