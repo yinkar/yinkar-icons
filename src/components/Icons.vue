@@ -22,23 +22,15 @@ export default {
     Icon,
   },
   methods: {
-    open(name, file) {
+    open(name, file, svgSrc, pngSrc) {
       import(`../assets/icons/${file}.svg`).then(e => {
         fetch(e.default)
           .then((r) => r.text())
           .then(async (data) => {
 
-            let pngUrl = new URL(`./src/assets/icons-png/${file}.png`, location).href;
-			let svgUrl = new URL(`./src/assets/icons/${file}.svg`, location).href;
-
-			await import(`../assets/icons-png/${file}.png`).then(e => {
-				pngUrl = new URL(e.default, location).href;
-			});
-
-			await import(`../assets/icons/${file}.svg`).then(e => {
-				svgUrl = new URL(e.default, location).href;
-			});
-
+			let svgUrl = new URL(svgSrc, location).href;
+			let pngUrl = new URL(pngSrc, location).href;
+			
             const icon = {
               name: name,
               svgCode: data,
@@ -70,6 +62,19 @@ export default {
       });
     },
   },
+  mounted() {
+	  iconList.icons.map(i => {
+		import(`../assets/icons-png/${i.file}.png`)
+			.then(e => {
+			  i.pngSrc = e.default;
+			});
+			
+		import(`../assets/icons/${i.file}.svg`)
+			.then(e => {
+			  i.svgSrc = e.default;
+			});
+	  });
+  }
 };
 </script>
 
@@ -84,7 +89,9 @@ export default {
 			:name="icon.name",
 			:file="icon.file",
 			:keywords="icon.keywords",
-			@click="open(icon.name, icon.file)",
+			:pngSrc="icon.pngSrc",
+			:svgSrc="icon.svgSrc",
+			@click="open(icon.name, icon.file, icon.svgSrc, icon.pngSrc)",
 			data-modal-toggle="icon-modal"
 		)
 
