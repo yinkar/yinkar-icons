@@ -64,10 +64,7 @@ export default {
   },
   mounted() {
 	  iconList.icons.map(i => {
-		import(`../assets/icons-png/${i.file}.png`)
-			.then(e => {
-			  i.pngSrc = e.default;
-			});
+		i.pngSrc = `/icons-png/${i.file}.png`;
 			
 		import(`../assets/icons/${i.file}.svg`)
 			.then(e => {
