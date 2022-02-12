@@ -23,13 +23,21 @@ export default {
   },
   methods: {
     open(name, file) {
-      import(`../assets/icons/${file}.svg`).then((e) => {
+      import(`../assets/icons/${file}.svg`).then(e => {
         fetch(e.default)
           .then((r) => r.text())
           .then(async (data) => {
-            const pngUrl = new URL(`./src/assets/icons-png/${file}.png`, location).href;
 
-			const svgUrl = new URL(`./src/assets/icons/${file}.svg`, location).href;
+            let pngUrl = new URL(`./src/assets/icons-png/${file}.png`, location).href;
+			let svgUrl = new URL(`./src/assets/icons/${file}.svg`, location).href;
+
+			await import(`../assets/icons-png/${file}.png`).then(e => {
+				pngUrl = new URL(e.default, location).href;
+			});
+
+			await import(`../assets/icons/${file}.svg`).then(e => {
+				svgUrl = new URL(e.default, location).href;
+			});
 
             const icon = {
               name: name,
