@@ -14,7 +14,33 @@
 
     <meta name="theme-color" content="#374151" />
 
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="Yinkar Icons" />
+    <meta name="msapplication-TileImage" content="/icon-192.png" />
+    <meta name="msapplication-TileColor" content="#374151" />
+
+    <link rel="manifest" href="data:application/json;base64,ewogICAgIm5hbWUiOiAiWWlua2FyIEljb25zIiwKICAgICJkZXNjcmlwdGlvbiI6ICJBIHRpbnkgaWNvbiBzZXQiLAogICAgInNob3J0X25hbWUiOiAiWWlua2FySWNvbnMiLAogICAgImljb25zIjogWwogICAgICAgIHsKICAgICAgICAgICAgInNyYyI6ICIvaWNvbi0xOTIucG5nIiwKICAgICAgICAgICAgInNpemVzIjogIjE5MngxOTIiLAogICAgICAgICAgICAidHlwZSI6ICJpbWFnZS9wbmciLAogICAgICAgICAgICAicHVycG9zZSI6ICJhbnkgbWFza2FibGUiCiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICAgICJzcmMiOiAiL2ljb24tNTEyLnBuZyIsCiAgICAgICAgICAgICJzaXplcyI6ICI1MTJ4NTEyIiwKICAgICAgICAgICAgInR5cGUiOiAiaW1hZ2UvcG5nIiwKICAgICAgICAgICAgInB1cnBvc2UiOiAiYW55IG1hc2thYmxlIgogICAgICAgIH0KICAgIF0sCiAgICAic3RhcnRfdXJsIjogIi95aW5rYXItaWNvbnMvIiwKICAgICJkaXNwbGF5IjogInN0YW5kYWxvbmUiLAogICAgInRoZW1lX2NvbG9yIjogIiMzNzQxNTEiLAogICAgImJhY2tncm91bmRfY29sb3IiOiAiIzIyMiIKfQ==" />
     <link rel="apple-touch-icon" href="/yinkar-icons/assets/icon-192.0044af72.png" />
+
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('service-worker.js')
+            .then(registration => {
+                console.log('Registered');
+              }, err => {
+                console.log('Fail', err);
+              })
+            .catch(err => {
+              console.log(err);
+            });
+        });
+      }
+      else {
+        console.log('Service worker is not supported');
+      }
+    </script>
     
     <script type="module" crossorigin src="/yinkar-icons/assets/index.b4892a2d.js"></script>
     <link rel="modulepreload" href="/yinkar-icons/assets/vendor.2cf4100b.js">
