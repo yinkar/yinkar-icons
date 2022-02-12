@@ -6,19 +6,23 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "convert": "node generate-png"
   },
   "dependencies": {
     "@fontsource/open-sans": "^4.5.4",
     "gh-pages": "^3.2.3",
     "placeholder-loading": "^0.5.0",
-    "sweetalert": "^2.1.2",
+    "svg2png": "^4.1.1",
     "vue": "^3.2.25"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.2.0",
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.6",
     "pug": "^3.0.2",
     "stylus": "^0.56.0",
+    "tailwindcss": "^3.0.22",
     "vite": "^2.8.0",
     "vite-svg-loader": "^3.1.2"
   }

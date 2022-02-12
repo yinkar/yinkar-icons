@@ -27,27 +27,25 @@ export default {
 </script>
 
 <template lang="pug">
-.icon
+.icon.shadow-md.bg-gray-700.transition-all(
+    class="hover:shadow-lg hover:bg-gray-800"
+)
     img(:src="iconUrl")
 </template>
 
 <style lang="stylus">
 .icon
-    margin 10px
-    padding 5px
+    margin 25px
+    padding 20px
     box-sizing border-box
-    height 28px
-    width 28px
-    border-radius 4px
+    height 56px
+    width 56px
+    border-radius 50%
     display flex
     place-content center center
     cursor pointer
-    transition 100ms ease-in-out
-    transition-property transform, box-shadow
-    background-color #fff6
-    box-shadow 1px 1px 2px #0002
 
-    &:hover
-        box-shadow 2px 2px 6px #0003
-        background-color #fff
+.icon > img
+    filter invert()
+
 </style>

@@ -5,7 +5,7 @@ import './style.styl';
 
 <template lang="pug">
 div#container
-  h1 Yinkar Icons
+  h1.font-medium.leading-tight.text-4xl.mt-8.text-slate-200 Yinkar Icons
   Icons
 </template>
 
