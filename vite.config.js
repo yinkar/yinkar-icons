@@ -4,5 +4,8 @@ import vue from '@vitejs/plugin-vue'
 // https://vitejs.dev/config/
 export default defineConfig({
   base: '/yinkar-icons/',
-  plugins: [vue()]
+  plugins: [vue()],
+  build: {
+    manifest: true,
+  },
 })
