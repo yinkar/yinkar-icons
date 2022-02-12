@@ -1,20 +1,22 @@
 {
-    "name": "YinkarIcons",
+    "name": "Yinkar Icons",
     "description": "A tiny icon set",
     "short_name": "YinkarIcons",
     "icons": [
         {
             "src": "/icon-192.png",
             "sizes": "192x192",
-            "type": "image/png"
+            "type": "image/png",
+            "purpose": "any maskable"
         },
         {
             "src": "/icon-512.png",
             "sizes": "512x512",
-            "type": "image/png"
+            "type": "image/png",
+            "purpose": "any maskable"
         }
     ],
-    "start_url": "https://yinkar.github.io/yinkar-icons/",
+    "start_url": "/yinkar-icons/",
     "display": "standalone",
     "theme_color": "#374151",
     "background_color": "#222"
