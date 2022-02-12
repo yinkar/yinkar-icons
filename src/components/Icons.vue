@@ -110,6 +110,9 @@ export default {
 			)
 				img(
 					:src="selectedIcon.svgUrl"
+					width="32"
+					height="32"
+					:alt="selectedIcon.name"
 				).inline.p-2
 			h3(
 				class="text-lg font-medium text-gray-900"

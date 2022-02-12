@@ -30,7 +30,7 @@ export default {
 .icon.shadow-md.bg-gray-700.transition-all(
     class="hover:shadow-lg hover:bg-gray-800"
 )
-    img(:src="iconUrl")
+    img(:src="iconUrl" width="14" height="14" :alt="name")
 </template>
 
 <style lang="stylus">
