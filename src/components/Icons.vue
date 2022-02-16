@@ -151,11 +151,10 @@ export default {
 </template>
 
 <style lang="stylus" scoped>
-#icon-list {
-  box-shadow: 2px 2px 10px #0003;
-  border-radius: 4px;
-  padding: 20px 10px;
-  margin: 40px auto;
-  flex-wrap: wrap;
-}
+#icon-list
+	box-shadow 2px 2px 10px #0003
+	border-radius 4px
+	padding 20px 10px
+	margin 40px auto
+	flex-wrap wrap
 </style>
