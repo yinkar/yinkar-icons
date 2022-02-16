@@ -1,7 +1,7 @@
 {
   "name": "yinkar-icons",
   "private": true,
-  "license": "ICS",
+  "license": "GNU GENERAL PUBLIC LICENSE V3",
   "version": "0.1.0",
   "scripts": {
     "dev": "vite",
